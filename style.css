@@ -185,3 +185,33 @@ padding-top: 5rem;
     justify-content: center;
 }
 
+
+
+
+@media only screen and (max-width: 768px) {
+html{
+    font-size: 9px;
+}
+
+#top .container{
+    flex-direction: column-reverse;
+}
+
+#top .container .right{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 2rem;    
+}
+#top .container .left{
+    text-align: center;
+    padding-right: 0;
+    flex: 1;
+    height: fit-content;
+
+}
+
+#top .left .buttons{
+    justify-content: center;
+}
+
+}
