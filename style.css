@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&family=Roboto+Mono:wght@300&display=swap');
+
+
+:root{
+--primart-color: #48a832;
+--secondary-black: #000;
+--secondary-gray: #48464b;
+--body-bg: rgb(255, 255, 255);
+}
+
+
+
+/* Global Style*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin:  0 auto;
+    max-width: 1000px;
+}
+
+html{
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: var(--body-bg);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+#top{
+height: 90vh;
+width: 100%;
+padding-top: 5rem;
+
+
+}
+
+#top .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#menue .topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+#menue .topnav img{
+   width: 3%;
+   height: 3%;
+}
+
+#menue .topnav a{
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+#menue .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+#menue .topnav a.active {
+    border-bottom: 5px solid #48a832;
+    color: white;
+  }
+
+#top .container .left{
+    flex: 10;
+}
+
+#top .container .right{
+    flex: 8;
+}
+
+#top .left .subhading{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #48a832;
+}
+
+#top .left .heading{
+    font-size:  4rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:  900;
+}
+
+#top .left .heading .wrapper{
+    display: inline-block;
+    overflow: hidden;
+ 
+}
+
+#top .left .heading .wrapper span{
+    position: relative;
+    bottom: -80px;
+    animation: reveal  1.3s ease-in-out forwards;
+
+}
+
+@keyframes reveal{
+    0%{
+        bottom: -80px;
+
+    }
+    100%{
+        bottom: 0;
+    }
+
+}
+
+#top .left .buttons{
+    font-weight: normal;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+
+}
+
+#top .left .buttons svg {
+    width:  50px;
+    color: var(--primart-color);
+}
+
+
+#top .left .buttons .download-btn1{
+    display: inline-block;
+    background-color: var(--primart-color);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.6em 1.6em;
+    border-radius: 50px;
+    
+}
+
+#top .left .buttons .download-btn1:hover{
+    background-color: rgb(5, 150, 12);
+}
+
+
+
+.fooster a{
+    font-size: 25px;
+    display: flex;
+    color: var(--primart-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.fooster  p{
+    background-color: #333;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
