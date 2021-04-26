@@ -168,6 +168,13 @@ padding-top: 5rem;
 
 
 
+.fooster{
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+}
+
 .fooster a{
     font-size: 25px;
     display: flex;
@@ -215,3 +222,42 @@ html{
 }
 
 }
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    font-family: 'Roboto Mono', sans-serif;
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #333; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: center; /* Make sure that padding and width stays in place */
+    justify-content: center;
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: verical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+
+
+  
+.contact  .submit-btn{
+    display: inline-block;
+    background-color: var(--primart-color);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.6em 1.6em;
+    border-radius: 50px;
+    
+}
+
+.contact  .submit-btn:hover{
+    background-color: rgb(5, 150, 12);
+}
+  
+  /* Add a background color and some padding around the form */
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
