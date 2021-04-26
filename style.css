@@ -65,8 +65,9 @@ padding-top: 5rem;
 
 
 #menue .topnav img{
-   width: 3%;
-   height: 3%;
+   width: 63px;
+   height: 60px;
+   position: relative;
 }
 
 #menue .topnav a{
